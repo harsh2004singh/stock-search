@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Search</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body >
+    <!-- Header -->
+    <header>
+        <h1>Elite Universe</h1>
+        <nav>
+            <a href="https://www.nseindia.com/">NIFTY 50</a>
+            <a href="https://niftyindices.com/indices/equity/broad-based-indices/NIFTY-Next-50">NIFTY NEXT 50</a>
+            <a href="https://www.bseindia.com/">SENSEX</a>
+            <a href="https://niftyindices.com/indices/equity/sectoral-indices/nifty-bank">BANKNIFTY</a>
+            <a href="https://www.nseindia.com/market-data/all-upcoming-issues-ipo">IPO</a>
+        </nav>
+        <a href="open.html" class="invest-now">Invest Now</a>
+    </header>
+
+    <!-- Main Section -->
+    <main >
+        <img 
+            class="hero-image" 
+            src="https://d3po6s2ufk88fh.cloudfront.net/450x300/Ticker/19556c0776e84fdb878cd54d266fc1a8.jpg" 
+            alt="Hero Image">
+        <h1 >Investing Ka Search Engine</h1>
+
+        <h3 style="color: blue;">The Modern Stock Screener that helps you pick better stocks.</h3>
+        
+        <form action="#" method="POST">
+            <input 
+                id="input"
+                type="text" 
+                name="stock_symbol" 
+                placeholder="Enter stock symbol (e.g., TCS)" 
+                autocomplete="off"
+                required>
+            <br>
+            <button type="Search">Search</button>
+            <div class="result"> 
+            </div>
+            <script src="open.js"></script>
+        </form>
+    </main>
+</body>
+</html>

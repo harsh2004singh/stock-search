@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Demat Account</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3f4f6;
+        }
+
+        #invest {
+            text-align: center;
+            padding: 30px;
+            background: #0f172a;
+            color: white;
+            font-size: 2em;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .card h1 {
+            font-size: 1.4em;
+            margin: 10px 0 5px;
+            color: #0f172a;
+            text-transform: capitalize;
+        }
+
+        .card h3 {
+            font-size: 1em;
+            color: #6b7280;
+            margin-bottom: 20px;
+        }
+
+        .card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0f172a;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .card a:hover {
+            background-color: #1e293b;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="invest"><h1>Invest With Us</h1></div>
+    <div class="container">
+        <div class="card">
+            <img src="https://thestorywatch.com/wp-content/uploads/2021/05/zerodha_logo.png" alt="Zerodha">
+            <h1>Zerodha</h1>
+            <h3>The Free Trade Zone</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="https://www.adigitalblogger.com/wp-content/uploads/upstox_logo-removebg-preview.png" alt="Upstox">
+            <h1>Upstox</h1>
+            <h3>Invest Right, Invest Now</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="https://franchiseguru.in/wp-content/uploads/2023/01/Angel-One-Franchise.png" alt="Angel One">
+            <h1>Angel One</h1>
+            <h3>Digital First</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="https://www.moneycontain.com/wp-content/uploads/2022/10/dhan-broker-300x108.png" alt="Dhan">
+            <h1>Dhan</h1>
+            <h3>Made for Traders</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.PIrLkuQsCg2Qik1D8u_IiQAAAA?w=144&h=144&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Motilal Oswal">
+            <h1>Motilal Oswal</h1>
+            <h3>Knowledge First</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="card">
+            <img src="https://cdn.zeebiz.com/sites/default/files/2018/07/09/44643-groww-startup-official.PNG" alt="Groww">
+            <h1>Groww</h1>
+            <h3>There's Just One Right Way</h3>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+</body>
+</html>
